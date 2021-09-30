@@ -7,6 +7,7 @@ def reverse(string: str):
 
 
 print(reverse(string='LosAngeles'))
+print("This is simple recursive function")
 
 
 # simple Reverse
