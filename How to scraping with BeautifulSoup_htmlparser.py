@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-
 def scrap():
     page = requests.get('https://www.ox.ac.uk/admissions')
     contents = page.content
